@@ -13,7 +13,7 @@ import ManageFriends from "./components/friends/ManageFriends";
 
 function App(): JSX.Element {
     return (
-        <SessionProvider session-id="login" restorePreviousSession={true}>
+        <SessionProvider session-id="login" >
             <Router>
                 <NavBar/>
                 <Routes>
