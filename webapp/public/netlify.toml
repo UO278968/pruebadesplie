@@ -1,4 +1,5 @@
 [[redirects]]
-    from = '/*'
-    to = '/home'
-    status = 200
+  from = '/map'
+  to = '/map?'
+  status = 200
+  query = { code = ':code', state = ':state' }
