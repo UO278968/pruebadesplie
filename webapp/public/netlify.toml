@@ -1,7 +1,6 @@
 [[redirects]]
   from = '/map'
-  to = '/map'
+  to = '/map?otherParam=value'
   status = 301
   force = true
   query = {}
-
