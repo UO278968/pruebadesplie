@@ -5,9 +5,11 @@ import AddMarkerPanel from "./AddMarkerPanel";
 import MapView from "./MapView";
 import ShowMarkerPanel from "./ShowMarkerPanel";
 import {Point} from "../pod/Point";
+import { useParams } from 'react-router-dom';
 
 function MapPage() {
     const [item, setItem] = useState<Point>();
+    const { code, state } = useParams();
 
     return (
         <div id="mapPage">
