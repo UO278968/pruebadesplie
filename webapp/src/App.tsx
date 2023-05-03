@@ -20,7 +20,7 @@ function App(): JSX.Element {
                     <Route path='/' element={<HomePage/>}/>
                     <Route path='/login' element={<LoginPage/>}/>
                     <Route path='/friends' element={<ManageFriends/>}/>
-                    <Route path='/map' element={<MapPage/>}/>
+                    <Route path='/map' exact element={<MapPage/>}/>
                     <Route path='/help' element={<HelpPage/>}/>
                     <Route path='/about' element={<AboutPage/>}/>
                     <Route path='/profile' element={<UserProfile/>}/>
