@@ -1,5 +1,7 @@
 [[redirects]]
-  from = '/map?'
+  from = '/map'
   to = '/map'
-  status = 200
-  query = { code = ':code', state = ':state' }
+  status = 301
+  force = true
+  query = {}
+
